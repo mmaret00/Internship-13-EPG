@@ -7,7 +7,6 @@ let programme11 = {
     name: 'Noćne reklame',
     description: 'Reklamni blok',
     category: 'Promidžbeni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -18,7 +17,6 @@ let programme12 = {
     name: 'TV Kalendar',
     description: 'Dokumentarno-povijesna emisija.',
     category: 'Informativni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -29,7 +27,6 @@ let programme13 = {
     name: 'Dobro jutro, Hrvatska',
     description: 'Mozaična emisija koja od ponedjeljka do subote...',
     category: 'Informativni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -40,7 +37,6 @@ let programme14 = {
     name: 'Vijesti',
     description: 'Kratki pregled vijesti iz Hrvatske i svijeta.',
     category: 'Informativni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -51,7 +47,6 @@ let programme15 = {
     name: 'Iz kuhinje s ljubavlju',
     description: 'Toni iznenađuje susret s ocem Kurtom koji je napustio svoju obitelj',
     category: 'Serija',
-    reprise: true,
     channel: 'HRT 1',
 }
 
@@ -62,7 +57,6 @@ let programme16 = {
     name: 'Riječ i život: Svećeništvo',
     description: 'Emisija razmatra probleme u društvu.',
     category: 'Informativni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -73,7 +67,6 @@ let programme17 = {
     name: 'Pobjeda srca',
     description: 'Calixto Bojórquez dođe Ariadni i kaže joj da je agent za nekretnine.',
     category: 'Serija',
-    reprise: true,
     channel: 'HRT 1',
 }
 
@@ -84,7 +77,6 @@ let programme18 = {
     name: 'Pogled s neba - Afrika',
     description: 'Dokumentarni film donosi divan pogled iz ptičje perspektive.',
     category: 'Dokumentarac',
-    reprise: true,
     channel: 'HRT 1',
 }
 
@@ -95,7 +87,6 @@ let programme19 = {
     name: 'Potjera',
     description: 'Kviz općeg znanja u kojem četiri natjecatelja odgovaraju...',
     category: 'Zabavni program',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -106,7 +97,6 @@ let programme110 = {
     name: 'Meta',
     description: 'Akcijsko-špijunski triler.',
     category: 'Film',
-    reprise: false,
     channel: 'HRT 1',
 }
 
@@ -117,7 +107,6 @@ let programme21 = {
     name: 'ZOI Peking 2022',
     description: 'Pratimo Zimske olimpijske igre iz Pekinga.',
     category: 'Sport',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -128,7 +117,6 @@ let programme22 = {
     name: 'Mali Malabar',
     description: 'Mali Malabar poziva djecu u dobi od 3 do 7 godina da otkrivaju prirodu.',
     category: 'Dječji program',
-    reprise: true,
     channel: 'HRT 2',
 }
 
@@ -139,7 +127,6 @@ let programme23 = {
     name: 'Slonko',
     description: 'Lutkarska serija za djecu rane vrtićke dobi.',
     category: 'Dječji program',
-    reprise: true,
     channel: 'HRT 2',
 }
 
@@ -150,7 +137,6 @@ let programme24 = {
     name: 'Raj za dame',
     description: 'Nakon napada SSSR-a na Mađarsku, osoblje...',
     category: 'Serije',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -161,7 +147,6 @@ let programme25 = {
     name: 'Psi, ta izvanredna bića',
     description: 'U Maleziji se svake godine ilegalno kopiraju milijuni...',
     category: 'Dokumentarac',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -172,7 +157,6 @@ let programme26 = {
     name: 'Život je lijep - Milka Milinković',
     description: 'Dokumentarni film o Milki Milinković, najtrofejnijoj jugoslavenskoj i hrvatskoj paraolimpijki.',
     category: 'Dokumentarac',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -183,7 +167,6 @@ let programme27 = {
     name: 'ZOI Peking 2022',
     description: 'Pratimo Zimske olimpijske igre iz Pekinga.',
     category: 'Sport',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -194,7 +177,6 @@ let programme28 = {
     name: 'Tko ubija u Brokenwoodu ',
     description: 'Istražujući sumnjivo samoubojstvo u brokenwoodskom ženskom zatvoru...',
     category: 'Serija',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -205,7 +187,6 @@ let programme29 = {
     name: 'Zauvijek u mojem srcu',
     description: 'Jenna (M. Patterson) i Charlie (J. Turner) pronašli su ljubav u Irskoj',
     category: 'Odrasli program',
-    reprise: false,
     channel: 'HRT 2',
 }
 
@@ -216,7 +197,6 @@ let programme210 = {
     name: 'Nijemi svjedok',
     description: 'Kad ostaci druge žrtve budu pronađeni u postrojenju za reciklažu...',
     category: 'Odrasli program',
-    reprise: true,
     channel: 'HRT 2',
 }
 

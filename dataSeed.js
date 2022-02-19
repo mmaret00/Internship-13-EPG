@@ -75,7 +75,6 @@ let programme16 = {
     reprise: false,
     channel: 'HRT 1',
     rating: 0,
-    favorite: false,
 }
 
 let programme17 = {
@@ -88,7 +87,6 @@ let programme17 = {
     reprise: true,
     channel: 'HRT 1',
     rating: 0,
-    favorite: true,
 }
 
 let programme18 = {
@@ -101,7 +99,6 @@ let programme18 = {
     reprise: true,
     channel: 'HRT 1',
     rating: 0,
-    favorite: false,
 }
 
 let programme19 = {
@@ -114,7 +111,6 @@ let programme19 = {
     reprise: false,
     channel: 'HRT 1',
     rating: 0,
-    favorite: true,
 }
 
 let programme110 = {
@@ -127,7 +123,6 @@ let programme110 = {
     reprise: false,
     channel: 'HRT 1',
     rating: 0,
-    favorite: true,
 }
 
 let programme21 = {
@@ -140,7 +135,6 @@ let programme21 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: true,
 }
 
 let programme22 = {
@@ -153,7 +147,6 @@ let programme22 = {
     reprise: true,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let programme23 = {
@@ -166,7 +159,6 @@ let programme23 = {
     reprise: true,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let programme24 = {
@@ -179,7 +171,6 @@ let programme24 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let programme25 = {
@@ -192,7 +183,6 @@ let programme25 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: true,
 }
 
 let programme26 = {
@@ -205,7 +195,6 @@ let programme26 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let programme27 = {
@@ -218,7 +207,6 @@ let programme27 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let programme28 = {
@@ -231,7 +219,6 @@ let programme28 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: true,
 }
 
 let programme29 = {
@@ -244,7 +231,6 @@ let programme29 = {
     reprise: false,
     channel: 'HRT 2',
     rating: 0,
-    favorite: true,
 }
 
 let programme210 = {
@@ -257,7 +243,6 @@ let programme210 = {
     reprise: true,
     channel: 'HRT 2',
     rating: 0,
-    favorite: false,
 }
 
 let channel1 = [programme11, programme12, programme13, programme14, programme15,

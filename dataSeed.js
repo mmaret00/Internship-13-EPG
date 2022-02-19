@@ -9,8 +9,6 @@ let programme11 = {
     category: 'Promidžbeni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
-    favorite: true,
 }
 
 let programme12 = {
@@ -22,8 +20,6 @@ let programme12 = {
     category: 'Informativni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
-    favorite: false,
 }
 
 let programme13 = {
@@ -35,8 +31,6 @@ let programme13 = {
     category: 'Informativni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
-    favorite: false,
 }
 
 let programme14 = {
@@ -48,8 +42,6 @@ let programme14 = {
     category: 'Informativni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
-    favorite: false,
 }
 
 let programme15 = {
@@ -61,8 +53,6 @@ let programme15 = {
     category: 'Serija',
     reprise: true,
     channel: 'HRT 1',
-    rating: 0,
-    favorite: false,
 }
 
 let programme16 = {
@@ -74,7 +64,6 @@ let programme16 = {
     category: 'Informativni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
 }
 
 let programme17 = {
@@ -86,7 +75,6 @@ let programme17 = {
     category: 'Serija',
     reprise: true,
     channel: 'HRT 1',
-    rating: 0,
 }
 
 let programme18 = {
@@ -98,7 +86,6 @@ let programme18 = {
     category: 'Dokumentarac',
     reprise: true,
     channel: 'HRT 1',
-    rating: 0,
 }
 
 let programme19 = {
@@ -110,7 +97,6 @@ let programme19 = {
     category: 'Zabavni program',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
 }
 
 let programme110 = {
@@ -122,7 +108,6 @@ let programme110 = {
     category: 'Film',
     reprise: false,
     channel: 'HRT 1',
-    rating: 0,
 }
 
 let programme21 = {
@@ -134,7 +119,6 @@ let programme21 = {
     category: 'Sport',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme22 = {
@@ -146,7 +130,6 @@ let programme22 = {
     category: 'Dječji program',
     reprise: true,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme23 = {
@@ -158,7 +141,6 @@ let programme23 = {
     category: 'Dječji program',
     reprise: true,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme24 = {
@@ -170,7 +152,6 @@ let programme24 = {
     category: 'Serije',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme25 = {
@@ -182,7 +163,6 @@ let programme25 = {
     category: 'Dokumentarac',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme26 = {
@@ -194,7 +174,6 @@ let programme26 = {
     category: 'Dokumentarac',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme27 = {
@@ -206,7 +185,6 @@ let programme27 = {
     category: 'Sport',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme28 = {
@@ -218,7 +196,6 @@ let programme28 = {
     category: 'Serija',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme29 = {
@@ -230,7 +207,6 @@ let programme29 = {
     category: 'Odrasli program',
     reprise: false,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let programme210 = {
@@ -242,7 +218,6 @@ let programme210 = {
     category: 'Odrasli program',
     reprise: true,
     channel: 'HRT 2',
-    rating: 0,
 }
 
 let channel1 = [programme11, programme12, programme13, programme14, programme15,

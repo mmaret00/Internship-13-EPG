@@ -1,4 +1,4 @@
-import  { printProgramme, getInfoAboutProgramme } from './printProgrammes.js';//
+import  { printProgramme, getInfoAboutProgramme } from './printProgrammes.js';
 import  { sortArrayOfProgrammesByBeginningTime, stringifyAndParseDate } from './utility.js';
 
 let favorites = localStorage.getItem('favorites');

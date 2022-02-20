@@ -92,7 +92,7 @@ function checkIfPINIsNumberOnly(newPIN){
     if(!newPINIsNumbersOnly){
         alert('PIN smije sadržavati samo brojeve!');
     }
-    return newPINIsNumbersOnly
+    return newPINIsNumbersOnly;
 }
 
 export { enterPINIfProgrammeIsProtected, changePIN };

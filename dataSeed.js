@@ -274,7 +274,7 @@ let programme38 = {
     id: 28,
     beginning: new Date(today.setHours(19, 0, 0)),
     end: new Date(today.setHours(19, 30, 0)),
-    name: 'RTL Vijesti ',
+    name: 'RTL Vijesti',
     description: 'Kroz sve vijesti koje su obilježile dan...',
     category: 'Informativni program',
     channel: 'RTL',
@@ -304,8 +304,8 @@ let programme41 = {
     id: 31,
     beginning: new Date(today.setHours(6, 0, 0)),
     end: new Date(today.setHours(6, 10, 0)),
-    name: 'Moćni Mike',
-    description: 'Leyani Kurera',
+    name: 'Tom & Jerry show',
+    description: 'Nove pustolovine i dogodovštine omiljenog mačka i miša',
     category: 'Dječji program',
     channel: 'Nova TV',
 }
@@ -314,9 +314,9 @@ let programme42 = {
     id: 32,
     beginning: new Date(today.setHours(6, 10, 0)),
     end: new Date(today.setHours(8, 0, 0)),
-    name: 'Kardiolog',
-    description: 'DRAMA Rodger Corser',
-    category: 'Serija',
+    name: 'Mornar Popaj',
+    description: 'Animirane avanture omiljenog Popaja, Olive i Pere Ždere',
+    category: 'Dječji program',
     channel: 'Nova TV',
 }
 
@@ -324,8 +324,8 @@ let programme43 = {
     id: 33,
     beginning: new Date(today.setHours(8, 0, 0)),
     end: new Date(today.setHours(10, 30, 0)),
-    name: 'Manifest',
-    description: 'DRAMA Melissa Roxburgh',
+    name: 'Najbolje godine',
+    description: 'Kontrast između seoskih pridošlica',
     category: 'Serija',
     channel: 'Nova TV',
 }
@@ -334,9 +334,9 @@ let programme44 = {
     id: 34,
     beginning: new Date(today.setHours(10, 30, 0)),
     end: new Date(today.setHours(11, 0, 0)),
-    name: 'Ispod palube',
-    description: 'Uzbudljivi američki reality...',
-    category: 'Reality show',
+    name: 'TV izlog',
+    description: 'Izlog na televiziji',
+    category: 'Promidžbeni program',
     channel: 'Nova TV',
 }
 
@@ -344,9 +344,9 @@ let programme45 = {
     id: 35,
     beginning: new Date(today.setHours(11, 0, 0)),
     end: new Date(today.setHours(13, 0, 0)),
-    name: 'Lovci na nekretnine: Dvoboj',
-    description: 'Ovo je nekada bio zajednički projekt, a sada...',
-    category: 'Reality show',
+    name: 'IN magazin',
+    description: 'Emisija posvećena showbusinessu',
+    category: 'Zabavni program',
     channel: 'Nova TV',
 }
 
@@ -354,8 +354,8 @@ let programme46 = {
     id: 36,
     beginning: new Date(today.setHours(13, 0, 0)),
     end: new Date(today.setHours(17, 30, 0)),
-    name: 'Vatre Ivanjske',
-    description: 'DRAMA Ksenija Pajić',
+    name: 'Melek',
+    description: 'Ovo je priča o snažnoj majci',
     category: 'Serija',
     channel: 'Nova TV',
 }
@@ -364,8 +364,8 @@ let programme47 = {
     id: 37,
     beginning: new Date(today.setHours(17, 30, 0)),
     end: new Date(today.setHours(17, 45, 0)),
-    name: 'Kardiolog',
-    description: 'DRAMA Rodger Corser',
+    name: 'Najbolje godine',
+    description: 'Kontrast između seoskih pridošlica',
     category: 'Serija',
     channel: 'Nova TV',
 }
@@ -374,8 +374,8 @@ let programme48 = {
     id: 38,
     beginning: new Date(today.setHours(17, 45, 0)),
     end: new Date(today.setHours(18, 0, 0)),
-    name: 'RTL Vijesti ',
-    description: 'Kroz sve vijesti koje su obilježile dan...',
+    name: 'Vijesti Nove TV',
+    description: 'Informativna emisija Nove TV',
     category: 'Informativni program',
     channel: 'Nova TV',
 }
@@ -384,8 +384,8 @@ let programme49 = {
     id: 39,
     beginning: new Date(today.setHours(18, 0, 0)),
     end: new Date(today.setHours(19, 15, 0)),
-    name: 'Manifest',
-    description: 'DRAMA Melissa Roxburgh',
+    name: 'Najbolje godine',
+    description: 'Kontrast između seoskih pridošlica',
     category: 'Serija',
     channel: 'Nova TV',
 }
@@ -393,9 +393,29 @@ let programme49 = {
 let programme410 = {
     id: 40,
     beginning: new Date(today.setHours(19, 15, 0)),
+    end: new Date(today.setHours(22, 0, 0)),
+    name: 'Kumovi',
+    description: 'Kum je brat kojega sam odabereš!',
+    category: 'Odrasli program',
+    channel: 'Nova TV',
+}
+
+let programme411 = {
+    id: 41,
+    beginning: new Date(today.setHours(22, 0, 0)),
+    end: new Date(today.setHours(22, 30, 0)),
+    name: 'IN magazin',
+    description: 'Emisija posvećena showbusinessu',
+    category: 'Zabavni program',
+    channel: 'Nova TV',
+}
+
+let programme412 = {
+    id: 42,
+    beginning: new Date(today.setHours(22, 30, 0)),
     end: new Date(today.setHours(23, 0, 0)),
-    name: 'Blago nama',
-    description: 'KOMEDIJA Enis Bešlagić',
+    name: 'Kumovi',
+    description: 'Kum je brat kojega sam odabereš!',
     category: 'Odrasli program',
     channel: 'Nova TV',
 }
@@ -410,6 +430,6 @@ let channel3 = [programme31, programme32, programme33, programme34, programme35,
     programme36, programme37, programme38, programme39, programme310];
 
 let channel4 = [programme41, programme42, programme43, programme44, programme45,
-    programme46, programme47, programme48, programme49, programme410];
+    programme46, programme47, programme48, programme49, programme410, programme411, programme412];
 
 export let channels = [channel1, channel2, channel3, channel4];

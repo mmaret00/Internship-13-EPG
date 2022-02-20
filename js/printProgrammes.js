@@ -1,4 +1,6 @@
 import { getInfoAboutProgrammeValidation, checkIfProgrammeIsAReprise } from './utility.js';
+import { ratings, rateProgramme } from './rating.js';
+import { favorites, changeProgrammesFavoriteStatus, printFavoriteProgramme } from './favorites.js';
 
 function getCurrentProgrammesOnChannel(channel, offset){
     for(let i = 0; i < channel.length; i++){
@@ -86,4 +88,4 @@ function getInfoAboutProgrammeOutputChoices(programme){
         `0 - Povratak`;
 }
 
-export { getInfoAboutProgramme, getCurrentProgrammesOnChannel };
+export { getInfoAboutProgramme, getCurrentProgrammesOnChannel, printProgramme };

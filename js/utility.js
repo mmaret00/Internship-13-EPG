@@ -1,3 +1,6 @@
+import { channels } from './dataSeed.js';
+import { enterPINIfProgrammeIsProtected } from './PIN.js'
+
 function checkIfProgrammeIsAReprise(programme){
     return channels.find(c => c
        .find(p => p.name === programme.name))

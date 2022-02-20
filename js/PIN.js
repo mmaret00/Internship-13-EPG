@@ -70,7 +70,7 @@ function enterNewPIN(){
     if(!newPIN){
         return null;
     }
-    if(!checkLengthOfPIN(newPIN) || !checkIfPINIsNumberOnly(newPIN)){
+    if(!checkLengthOfPIN(newPIN) || !checkIfPINIsNumbersOnly(newPIN)){
         return enterNewPIN();
     }
     if(!confirm('Jeste li sigurni da želite promijeniti PIN?')){
@@ -87,7 +87,7 @@ function checkLengthOfPIN(newPIN){
     return correctLengthOfPin;
 }
 
-function checkIfPINIsNumberOnly(newPIN){
+function checkIfPINIsNumbersOnly(newPIN){
     let newPINIsNumbersOnly = /^\d+$/.test(newPIN);
     if(!newPINIsNumbersOnly){
         alert('PIN smije sadržavati samo brojeve!');

@@ -1,7 +1,7 @@
+import { getProgrammeFromId } from './utility.js';
 import { getInfoAboutProgramme, getCurrentProgrammesOnChannel } from './printProgrammes.js';
 import { favoriteProgrammesMenu } from './favorites.js';
 import { changePIN } from './PIN.js';
-import { getProgrammeFromId } from './utility.js';
 
 function mainMenu(channels, offset){
     let menuChoice = mainMenuOutput(channels, offset, 'main menu');

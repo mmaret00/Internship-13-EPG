@@ -1,5 +1,5 @@
-import  { printProgramme, getInfoAboutProgramme } from './printProgrammes.js';
-import  { sortArrayOfProgrammesByBeginningTime, stringifyAndParseDate } from './utility.js';
+import { printProgramme, getInfoAboutProgramme } from './printProgrammes.js';
+import { sortArrayOfProgrammesByBeginningTime, stringifyAndParseDate } from './utility.js';
 
 let favorites = localStorage.getItem('favorites');
 if(!favorites){
@@ -23,15 +23,6 @@ function favoriteProgrammesMenu(channels){
             getInfoAboutProgramme(chosenProgramme, true);
             return favoriteProgrammesMenu(channels);
     }
-}
-
-function getFavoriteProgrammeFromId(id){
-    let parsedFavorites = JSON.parse(favorites);
-
-    if(parsedFavorites.some(p => p.id === id)){
-        return parsedFavorites.find(p => p.id === id);
-    }
-    return 'id not found';
 }
 
 function printFavoriteProgrammesLayout(){
@@ -61,6 +52,15 @@ function printFavoriteProgramme(programme){
 
     return `Kanal: ${programme.channel}\n` +
         printProgramme(programme) + `\n\n`;
+}
+
+function getFavoriteProgrammeFromId(id){
+    let parsedFavorites = JSON.parse(favorites);
+
+    if(parsedFavorites.some(p => p.id === id)){
+        return parsedFavorites.find(p => p.id === id);
+    }
+    return 'id not found';
 }
 
 function changeProgrammesFavoriteStatus(programme){
